@@ -6,9 +6,13 @@ export default function App() {
       <div className="ev-rule" aria-hidden="true" />
 
       <section className="ev-card">
+        <span className="ev-eyebrow">Learn · Build · Ship</span>
+
         <h1 className="ev-headline">
           From an ed-tech platform to
-          <span className="ev-subhead">AI-powered solutions</span>
+          <span className="ev-subhead">
+            <span className="ev-highlight">AI-powered solutions</span>
+          </span>
         </h1>
 
         <p className="ev-sub">
@@ -39,6 +43,7 @@ export default function App() {
 
       <section className="ev-offerings">
         <div className="ev-offering">
+          <span className="ev-offering-num">01</span>
           <h2 className="ev-offering-title">Corporate AI Training</h2>
           <p className="ev-offering-text">
             Hands-on GenAI programs for engineering teams and CXO leadership,
@@ -47,6 +52,7 @@ export default function App() {
         </div>
 
         <div className="ev-offering">
+          <span className="ev-offering-num">02</span>
           <h2 className="ev-offering-title">Proof-of-Concept Builds</h2>
           <p className="ev-offering-text">
             Rapid, production-grade POCs that validate an AI idea against real
@@ -55,6 +61,7 @@ export default function App() {
         </div>
 
         <div className="ev-offering">
+          <span className="ev-offering-num">03</span>
           <h2 className="ev-offering-title">From Pilot to Production</h2>
           <p className="ev-offering-text">
             We carry the best POCs forward into deployed systems, with the
